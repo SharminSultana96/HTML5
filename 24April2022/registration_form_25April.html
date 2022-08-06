@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h3>Student Registration Form</h3>
+
+	<form action="" method="post">
+		<fieldset>
+			<legend>Admission Info.</legend>
+		<input type="text" name="fullname" placeholder="Enter your full name"><br>
+		<input type="date" name="dob"><br>
+		<label for="">Gender: </label><br>
+		Male <input type="radio" name="gender" value="male">
+		Female <input type="radio" name="gender" value="female">
+		Others<input type="radio" name="gender" value="others"><br>
+		Subjects: <br>
+		PHP <input type="Checkbox" name="php" value="php">
+		MySQL <input type="Checkbox" name="mysql" value="mysql">
+		Java <input type="Checkbox" name="java" value="java"><br>
+		Location: <br>
+		<select name="Location">
+			<option value="" disabled selected>Select One</option>
+			<optgroup label="Mirpur">
+				<option value="1">Mirpur 10</option>
+				<option value="5">Mirpur 11</option>
+			</optgroup>
+			<optgroup label="Dhanmondi">
+			<option value="2">Shankar</option>
+			<option value="6">Zigatola</option>
+			<option value="7">Dhanmondi 15</option>
+		</optgroup>
+			<option value="3">Paltan</option>
+			<option value="4">Gulshan</option>
+		</select><br>
+		<input type="file" name="photo">
+		Phone: <input type="text" name="phone">
+		</fieldset>
+		<input type="image" src="../images.png" value="image">
+		<fieldset>
+			<legend>Login Info.</legend>
+			<input type="email" name="email" placeholder="Enter valid email address"><br>
+			<input type="password" name="password" placeholder="Enter password"><br>
+			<input type="password" name="repeat_password" placeholder="Re-type password"><br>
+		</fieldset>
+		<input type="Submit" name="Submit" value="SUBMIT">
+		<input type="reset" name="reset" value="RESET">
+		
+	</form>
+	
+</body>
+</html>
